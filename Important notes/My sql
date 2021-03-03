@@ -1,0 +1,11 @@
+//Data Insert -> Create
+INSERT INTO `project1` (`name`, `pass`, `mobile`) VALUES ('Mun Das', 'Mundasboi', '019566642');
+
+//Select -> Read
+SELECT * FROM `project1`
+
+//Update
+UPDATE `project1` SET `name` = 'Sudipto', `pass` = 'SudiptoDip', `mobile` = '0164644563' WHERE `project1`.`id` = 2;
+
+//Delete
+DELETE FROM `project1` WHERE `project1`.`id` = 2
